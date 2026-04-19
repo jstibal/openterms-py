@@ -91,8 +91,7 @@ print(result.raw_value)  # the raw value from permissions block
 print(result.source)     # "cache" | "network"
 ```
 
-Common permission keys: `scrape_data`, `api_access`, `read_content`,
-`index_content`, `train_on_content`, `execute_code`, `access_user_data`.
+Common permission keys: read_content, scrape_data, api_access, create_account, make_purchases, post_content, allow_training
 
 ---
 
