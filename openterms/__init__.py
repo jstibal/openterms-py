@@ -17,7 +17,7 @@ from .client import fetch, check, discover, receipt, configure, clear_cache
 from .models import CheckResult, DiscoveryResult, Receipt, CacheEntry
 from .cache import TermsCache
 
-__version__ = "0.1.0"
+__version__ = "0.3.1"
 __all__ = [
     "fetch",
     "check",
